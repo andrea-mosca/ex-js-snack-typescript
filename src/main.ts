@@ -35,3 +35,10 @@ type ProjectMenager=Dipendente & {
   budgetGestito?:number,
   stakeholderPrincipali:string[]
 };
+// bonus snack 3
+type Team={
+  nome:string,
+  progettoAttuale:string|null,
+  budget:number,
+  membri:[ProjectMenager,Developer,...Developer[]]
+}
